@@ -3,6 +3,7 @@ author = "Mark Dinn"
 categories = ["Hugo"]
 date = 2004-03-31T16:00:00Z
 description = "This is meta description"
+draft = true
 image = "/images/post/post-1.jpg"
 title = "My awesome blog post"
 type = "post"
