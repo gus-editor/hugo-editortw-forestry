@@ -6,14 +6,14 @@ summaryLength = "10"
 theme = "github.com/themefisher/northendlab-hugo"
 title = "Medical Editing for Taiwan"
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
+name = "Forums"
+url = "http://tw.forumosa.com"
+weight = 3
 [[menu.footer]]
 URL = "tools"
 name = "tools"
 weight = 2
-[[menu.main]]
+[[menu.footer]]
 URL = "contact"
 name = "Contact"
 weight = 1
@@ -21,6 +21,10 @@ weight = 1
 URL = "tools"
 name = "tools"
 weight = 2
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 1
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
